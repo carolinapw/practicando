@@ -1,0 +1,47 @@
+section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: black;
+    margin-top: 20px;
+}
+.caja {
+    background-color: aquamarine;
+    padding: 10px;
+    height: 130px;
+    width: 150px;
+    text-align: center;
+}
+.uno {
+    border: 3px green solid;
+}
+.dos {
+    border: 3px red solid;
+}
+.tres {
+    border: 3px blueviolet solid;
+}
+.cuatro {
+    border: 3px yellow solid;
+}
+.cinco {
+    border: 3px orange solid;
+}
+img {
+    height: 300px;
+    border: 4px beige dotted;
+}
+.prog {
+    color: white;
+}
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: right;
+    background-color: gainsboro;
+}
+p {
+    margin: 7px;
+}
